@@ -1,0 +1,162 @@
+	[
+  {
+    "type": "Park",
+    "properties": {
+      "id": "marker-1",
+      "title": "Parc de la Ciutadella",
+      "description": "A large park in Barcelona, featuring a zoo, a lake, museums, and the iconic Cascada Monumental fountain.",
+      "marker-size": "medium",
+      "marker-color": "#1087bf",
+      "marker-symbol": "marker-green"
+    },
+    "geometry": {
+      "coordinates": [2.1864, 41.3884],
+      "type": "Point"
+    },
+    "id": "0de616c939ce2f31676ff0294c78321b"
+  },
+  {
+    "type": "Venue",
+    "properties": {
+      "id": "marker-2",
+      "title": "Palau de la Música Catalana",
+      "description": "A concert hall known for its stunning modernist architecture and cultural performances.",
+      "marker-size": "medium",
+      "marker-color": "#e74c3c",
+      "marker-symbol": "marker-orange"
+    },
+    "geometry": {
+      "coordinates": [2.1750, 41.3873],
+      "type": "Point"
+    },
+    "id": "207437833677b4c5af354906d54fda84"
+  },
+  {
+    "type": "Bar",
+    "properties": {
+      "id": "marker-3",
+      "title": "El Xampanyet",
+      "description": "A traditional cava bar offering tapas and an authentic Barcelona experience.",
+      "marker-size": "medium",
+      "marker-color": "#f1c40f",
+      "marker-symbol": "marker-yellow"
+    },
+    "geometry": {
+      "coordinates": [2.1803, 41.3832],
+      "type": "Point"
+    },
+    "id": "268b9f0edfdc3a8a2a021f019164eaef"
+  },
+  {
+    "type": "Park",
+    "properties": {
+      "id": "marker-4",
+      "title": "Park Güell",
+      "description": "A colorful park designed by Antoni Gaudí, featuring unique architectural elements and scenic views of Barcelona.",
+      "marker-size": "medium",
+      "marker-color": "#16a085",
+      "marker-symbol": "marker-blue"
+    },
+    "geometry": {
+      "coordinates": [2.1525, 41.4145],
+      "type": "Point"
+    },
+    "id": "451e1a14ee747776c48d459c52905cac"
+  },
+  {
+    "type": "Bar",
+    "properties": {
+      "id": "marker-5",
+      "title": "Bodega Biarritz 1881",
+      "description": "A cozy bar offering delicious tapas and drinks in the heart of the Gothic Quarter.",
+      "marker-size": "medium",
+      "marker-color": "#d35400",
+      "marker-symbol": "marker-red"
+    },
+    "geometry": {
+      "coordinates": [2.1774, 41.3808],
+      "type": "Point"
+    },
+    "id": "4aaa9df412c62b53eeab4b16ec0ea825"
+  },
+  {
+    "type": "Venue",
+    "properties": {
+      "id": "marker-6",
+      "title": "Sagrada Família",
+      "description": "The iconic basilica designed by Antoni Gaudí, a must-visit cultural and architectural landmark.",
+      "marker-size": "medium",
+      "marker-color": "#8e44ad",
+      "marker-symbol": "marker-purple"
+    },
+    "geometry": {
+      "coordinates": [2.1744, 41.4036],
+      "type": "Point"
+    },
+    "id": "7459e13bb6d8ecd1c797e2c168a6ad91"
+  },
+  {
+    "type": "Park",
+    "properties": {
+      "id": "marker-7",
+      "title": "Montjuïc Park",
+      "description": "A sprawling park with gardens, museums, and a castle, offering panoramic views of the city.",
+      "marker-size": "medium",
+      "marker-color": "#27ae60",
+      "marker-symbol": "marker-green"
+    },
+    "geometry": {
+      "coordinates": [2.1651, 41.3645],
+      "type": "Point"
+    },
+    "id": "a0a6bbc358a34ccea8687f8fee527964"
+  },
+  {
+    "type": "Venue",
+    "properties": {
+      "id": "marker-8",
+      "title": "La Rambla",
+      "description": "A vibrant pedestrian street with shops, cafes, and street performers.",
+      "marker-size": "medium",
+      "marker-color": "#3498db",
+      "marker-symbol": "marker-blue"
+    },
+    "geometry": {
+      "coordinates": [2.1734, 41.3825],
+      "type": "Point"
+    },
+    "id": "acba288f3abd79014145bc16e83fbc78"
+  },
+  {
+    "type": "Bar",
+    "properties": {
+      "id": "marker-9",
+      "title": "Paradiso",
+      "description": "A world-class cocktail bar with a hidden entrance and creative drinks.",
+      "marker-size": "medium",
+      "marker-color": "#e67e22",
+      "marker-symbol": "marker-orange"
+    },
+    "geometry": {
+      "coordinates": [2.1818, 41.3834],
+      "type": "Point"
+    },
+    "id": "be73854ebca0a6397ce0b63e06852b50"
+  },
+  {
+    "type": "Venue",
+    "properties": {
+      "id": "marker-10",
+      "title": "Casa Batlló",
+      "description": "A masterpiece of modernist architecture designed by Antoni Gaudí.",
+      "marker-size": "medium",
+      "marker-color": "#2980b9",
+      "marker-symbol": "marker-blue"
+    },
+    "geometry": {
+      "coordinates": [2.1664, 41.3917],
+      "type": "Point"
+    },
+    "id": "f919f7ec1e3bf88e776772311af3b151"
+  }
+]

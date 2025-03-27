@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body class="vh-100">
+    <header id="weather" class="d-flex align-items-center">
+        <img id="weather-icon" class="icon w-100 h-100 me-2" src="" alt="">
+        <h2 id="temp" class=""></h2>
+    </header>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <div class="col-12 col-md-8 card shadow p-3 py-5 d-flex flex-column custom-card-height">
+        <h1 class="mx-auto">😆 Preparat per riure? 😆</h1>
+        
+        <!-- Wrapper to center the joke -->
+        <div class="pt-2 flex-grow-1 d-flex align-items-center">
+            <h3 class="text-center col-10 mx-auto" id="joke"></h3>
+        </div>
+       	<div class="d-flex align-items-center justify-content-center gap-5 mb-3 mb-md-4">
+            <input type="radio" id="score1" value="1" name="score" class="btn-check" autocomplete="off">
+            <label for="score1" class="btn fs-2">😥</label>
+
+            <input type="radio" id="score2" value="2" name="score" class="btn-check" autocomplete="off">
+            <label for="score2" class="btn fs-2">😑</label>
+
+            <input type="radio" id="score3" value="3" name="score" class="btn-check" autocomplete="off">
+            <label for="score3" class="btn fs-2">🤭</label>
+		</div> 
+        <button id="jokeButton" class="btn btn-lg btn-primary mx-auto d-block mt-auto">Següent acudit</button>
+        </div>
+    </div>
+    <img id="blob2" class="bottom-left-image m-4 m-lg-5" src="" alt="blob-2">
+    <img id="blob3" class="top-right-image m-4 m-lg-5" src="" alt="blob-3">
+        <script src="./js/index.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

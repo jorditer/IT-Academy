@@ -1,0 +1,92 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.custom-card-height {
+    min-height: 35vh; /* Minimum height for smaller screens */
+}
+
+header {
+    position: absolute;
+    height: 13%;
+}
+
+.bottom-left-image {
+    position: fixed;
+    bottom: 2vw;
+    left: 4vh;
+    width: 140px; 
+    height: auto; /* Maintain aspect ratio */
+    z-index: 3; 
+}
+
+.top-right-image {
+    position: fixed;
+    top: 0vw;
+    right: 4vh;
+    width: 140px;
+    height: auto; /* Maintain aspect ratio */
+    z-index: 3;
+}
+
+body {
+    display: none;
+    background: 
+        var(--blob-image) no-repeat center center fixed,
+        url('../../imgs/laughing.jpg') no-repeat center center fixed;
+    background-size: contain, cover;
+    background-repeat: no-repeat, no-repeat;
+    z-index: 1;
+}
+
+body.loaded {
+    display: block;
+}
+
+.icon {
+    width: 150%;
+    height: 150%;
+    border-radius: 50%;
+}
+
+body {
+    position: relative; /* Ensure the body has a position property */
+    z-index: 0; /* Default stacking context */
+}
+
+#blob3, #blob2 {
+    position: absolute;
+    z-index: -1;
+}
+
+@keyframes pulsate {
+    0% {
+        background-color: rgba(247, 200, 69, 0.3); /* Semi-transparent base color */
+    }
+    50% {
+        background-color: rgb(247,204,69, 0.5); /* Fully opaque base color */
+    }
+    100% {
+        background-color: rgba(247, 200, 69, 0.3); /* Semi-transparent base color */
+    }
+}
+#weather-icon {
+    animation: pulsate 5s infinite;
+}
+
+// #weather {
+//     position: relative;
+//     z-index: 1;
+// }
+
+@media (min-width: 768px) {
+    .custom-card-height {
+        min-height: 35vh; /* Minimum height for medium and larger screens */
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-card-height {
+        min-height: 40vh; /* Minimum height for larger screens */
+		max-width: 50vw;
+
+    }
+}

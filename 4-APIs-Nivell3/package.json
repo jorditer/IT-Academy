@@ -1,0 +1,24 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "postinstall": "npm run build"
+  },
+  "bin": {
+    "tpx": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "tpx": "^0.0.1-beta.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}

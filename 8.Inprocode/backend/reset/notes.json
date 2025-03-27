@@ -1,0 +1,166 @@
+[{
+  "_id": {
+    "$oid": "675810478e676e419250d482"
+  },
+  "Subject": "Gym",
+  "Location": "McFit",
+  "StartTime": {
+    "$date": "2025-02-11T09:00:00.000Z"
+  },
+  "EndTime": {
+    "$date": "2025-02-11T11:00:00.000Z"
+  },
+  "IsAllDay": false,
+  "RecurrenceRule": null,
+  "StartTimezone": null,
+  "EndTimezone": null,
+  "createdAt": {
+    "$date": "2024-12-10T09:56:23.413Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T09:56:23.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675810868e676e419250d485"
+  },
+  "Subject": "Study",
+  "Location": "Home",
+  "StartTime": {
+    "$date": "2025-02-11T11:00:00.000Z"
+  },
+  "EndTime": {
+    "$date": "2025-02-11T12:30:00.000Z"
+  },
+  "IsAllDay": false,
+  "RecurrenceRule": null,
+  "StartTimezone": null,
+  "EndTimezone": null,
+  "Description": "- MongoDB\n- Mapbox\n- React Query",
+  "createdAt": {
+    "$date": "2024-12-10T09:57:26.432Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T09:57:26.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675810968e676e419250d488"
+  },
+  "Subject": "Eat",
+  "StartTime": {
+    "$date": "2025-02-11T12:30:00.000Z"
+  },
+  "EndTime": {
+    "$date": "2025-02-11T14:00:00.000Z"
+  },
+  "IsAllDay": false,
+  "RecurrenceRule": null,
+  "StartTimezone": null,
+  "EndTimezone": null,
+  "createdAt": {
+    "$date": "2024-12-10T09:57:42.209Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T09:57:42.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675810a18e676e419250d48b"
+  },
+  "Subject": "Meeting",
+  "StartTime": {
+    "$date": "2025-02-12T09:30:00.000Z"
+  },
+  "EndTime": {
+    "$date": "2025-02-12T11:30:00.000Z"
+  },
+  "IsAllDay": false,
+  "RecurrenceRule": null,
+  "StartTimezone": null,
+  "EndTimezone": null,
+  "createdAt": {
+    "$date": "2024-12-10T09:57:53.559Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T09:57:53.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675810b98e676e419250d48e"
+  },
+  "Subject": "Toni's Birthday",
+  "StartTime": {
+    "$date": "2025-02-12T23:00:00.000Z"
+  },
+  "EndTime": {
+    "$date": "2025-02-13T23:00:00.000Z"
+  },
+  "IsAllDay": true,
+  "RecurrenceRule": null,
+  "StartTimezone": null,
+  "EndTimezone": null,
+  "createdAt": {
+    "$date": "2024-12-10T09:58:17.805Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T09:58:23.075Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675810dc8e676e419250d493"
+  },
+  "Subject": "Work",
+  "Location": "Salamandra",
+  "StartTime": {
+    "$date": "2025-02-14T15:00:00.000Z"
+  },
+  "EndTime": {
+    "$date": "2025-02-14T22:30:00.000Z"
+  },
+  "IsAllDay": false,
+  "RecurrenceRule": null,
+  "StartTimezone": null,
+  "EndTimezone": null,
+  "createdAt": {
+    "$date": "2024-12-10T09:58:52.351Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T09:58:52.351Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675810f38e676e419250d496"
+  },
+  "Subject": "Work",
+  "Location": "Salamandra",
+  "StartTime": {
+    "$date": "2025-02-15T11:00:00.000Z"
+  },
+  "EndTime": {
+    "$date": "2025-02-15T22:30:00.000Z"
+  },
+  "IsAllDay": false,
+  "RecurrenceRule": null,
+  "StartTimezone": null,
+  "EndTimezone": null,
+  "createdAt": {
+    "$date": "2024-12-10T09:59:15.152Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-10T09:59:15.152Z"
+  },
+  "__v": 0
+}]

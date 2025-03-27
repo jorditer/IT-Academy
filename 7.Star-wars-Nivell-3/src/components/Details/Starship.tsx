@@ -1,5 +1,6 @@
 import { Details } from "../../interfaces/Details";
 import Separator from "./Separator";
+import error404 from '../../imgs/404.png'
 
 interface StarshipProps {
   details: Details;
@@ -9,7 +10,7 @@ const Starship: React.FC<StarshipProps> = ({ details }) => {
   const regex = /\/(\d+)\/$/;
   const match = details.url.match(regex);
   const id = `https://starwars-visualguide.com/assets/img/starships/${match?.[1]}.jpg`;
-  const alt = "/src/imgs/404.png";
+  const alt = error404;
   const addFallbackImg = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
     try {
       e.currentTarget.src = alt;

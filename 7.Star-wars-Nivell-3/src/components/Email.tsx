@@ -1,4 +1,4 @@
-import { useState, useRef, FormEvent, useEffect } from 'react';
+import { useState, useRef, FormEvent } from 'react';
 import { fetchSignInMethodsForEmail } from "firebase/auth";
 import { auth } from "../../config/firebase"; // Adjust the import path as needed
 import Login from './Login';

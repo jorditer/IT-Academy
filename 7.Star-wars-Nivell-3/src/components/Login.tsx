@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 function Login({ email }: { email: string }) {
   const [password, setPassword] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const { setIsUserLoggedIn, isUserLoggedIn } = useAuth();
+  const { setIsUserLoggedIn } = useAuth();
   const navigate = useNavigate();
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
